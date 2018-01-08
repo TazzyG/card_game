@@ -16,13 +16,13 @@ While getting a page to render in root path...
 
 Initial Steps
 
-Put a list of suits and cards in the model (I am using numbers)
-Pretty simple, created arrays for suit and number
-
-Now to create a deck of cards... I will make a hash. ... thinking
-
-K- I got myself mighty confused, so googled and found this to help me get started
+Started with a single model, cards, but after this link below, decided to use 2 models, deck and cards. 
 https://stackoverflow.com/questions/2641329/programming-technique-how-to-create-a-simple-card-game
 That ended up confusing me a bit, so I settled on a few methods, add hearts, add clubs, etc to make a deck.
 
-That will be it for now, Part 1 - going to walk the dog. 
+That will be it for now, Part 1 - going to walk the dog and step away from the computer.
+
+The idea is not so much to create a card game but make a better use of random. 
+I used a deck of cards at home for painting my fireplace bricks picking random 4 colors based on suit.
+
+I plan to set up some actions based on the cards selected. Experimental, a Monday project.  
