@@ -1,1 +1,11 @@
 <h1> Welcome to your very own House of Cards </h1> 
+
+<% @cards.each do |card| %> 
+	<%= card.rank %> of <%= card.suit %> 
+<% end %> 
+
+<h2> Your Random Card is </h2> 
+
+<p>
+<%= link_to "click to see the card", @cards.sample %> 
+</p> 
