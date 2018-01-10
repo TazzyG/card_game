@@ -2,4 +2,6 @@
 
 <p> <%= @card.rank %> of <%= @card.suit %>s </p>
 
+<p> Don't like this one? <%= link_to "show me another card", card_path(@card.deck.cards.sample) %>  </p>
+
 Task: 

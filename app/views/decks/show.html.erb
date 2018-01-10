@@ -1,0 +1,8 @@
+<h1> And we're off to the races! </h1> 
+
+Deck ID: <%= @deck.id %> has <%= @deck.cards.count %> Cards <br> 
+<%= image_tag "https://media.giphy.com/media/X8iF4KUWlzYxq/giphy.gif" %> 
+
+<h2> I am ready to do this! </h2>
+<%= link_to "show me my card", card_path(@deck.cards.sample) %> 
+
